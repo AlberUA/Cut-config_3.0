@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contact Us</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240519044227">
+	<link rel="stylesheet" href="files/intl-tel-input/intlTelInput.css?_v=20240519044227">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__box">
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<div class="menu__label">Menu</div>
+						<ul class="menu__list">
+							<li class="menu__item _icon-arrow-link"><a href="saas.html" class="menu__link">SaaS Solution</a></li>
+							<li class="menu__item _icon-arrow-link"><a href="dev.html" class="menu__link">Custom Development</a></li>
+							<li class="menu__item _icon-arrow-link"><a href="services.html" class="menu__link">Services</a></li>
+							<li class="menu__item _icon-arrow-link"><a href="cases.html" class="menu__link">Use Cases</a></li>
+							<li class="menu__item _icon-arrow-link"><a href="about.html" class="menu__link">About Us</a></li>
+							<li class="menu__item _icon-arrow-link"><a href="#" class="menu__link">Blog</a></li>
+							<li class="menu__item _icon-arrow-link"><a href="contact.html" class="menu__link">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="#" data-popup="#popup" data-da=".menu__body, 1200" class="header__button button">Contact us</a>
+				<div class="header__actions">
+					<a href="#" data-popup="#popup" class="header__button-mobile button _icon-mail"><span>Contact us</span></a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page-contact">
+			<section class="page-contact__hero hero-contact">
+				<div class="hero-contact__container">
+					<div class="hero-contact__body">
+						<div class="hero-contact__content content-contact">
+							<div class="content-contact__body">
+								<div class="content-contact__top">
+									<h1 class="content-contact__title title">Get in Touch</h1>
+									<div class="content-contact__text text">Simply want to connect or have a general inquiry? Feel free to reach out, and we’ll get back to you as soon as we can.</div>
+								</div>
+								<div class="content-contact__contacts-block">
+									<a href="mailto:max@dark.agency" class="content-contact__link content-contact__link_email">max@dark.agency</a>
+									<a href="tel:+380939239981" class="content-contact__link content-contact__link_phone">+380 93 923 99 81</a>
+								</div>
+								<div class="content-contact__bottom">
+									<a href="#" class="content-contact__address">26a Heroiv Stalingradu ave, Kyiv, Ukraine</a>
+									<a href="#" class="content-contact__social content-contact__social_linkedin">
+										<img src="img/icons/icon-linkedIn-black.svg" alt="icon">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="hero-contact__contact-form contact-form">
+							<h2 class="contact-form__title title">For Easy Inquiries</h2>
+							<div class="contact-form__form">
+								<form data-ajax action="assets/files/sendmail/sendmail.php" method="POST" class="form__body">
+									<div class="form__item">
+										<label for="formFirstName" class="form__label">First Name</label>
+										<input type="text" name="first-name" id="formFirstName" required data-error="Error" placeholder="John" class="input">
+									</div>
+									<div class="form__item">
+										<label for="formLastName" class="form__label">last Name</label>
+										<input type="text" name="last-name" id="formLastName" required data-error="Error" placeholder="" class="input">
+									</div>
+									<div class="form__item">
+										<label for="formEmail" class="form__label">Email</label>
+										<input type="email" name="email" id="formEmail" required data-error="Error" placeholder="E-mail" class="input">
+									</div>
+									<div class="form__item">
+										<label for="formCountry" class="form__label">Country</label>
+										<input type="text" name="country" id="formCountry" data-error="Error" placeholder="Germany" class="input">
+									</div>
+									<div class="form__item">
+										<label for="formPhone" class="form__label">Phone</label>
+										<input type="number" name="phone" id="formPhone" data-error="Error" placeholder="" class="input">
+									</div>
+									<div class="form__item form__item_message">
+										<label for="formMessage" class="form__label">Message</label>
+										<textarea autocomplete="off" name="message" id="formMessage" data-autoheight placeholder="Message" data-error="Error" class="input"></textarea>
+									</div>
+									<button type="submit" class="button">Send request</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__box">
+				<div class="footer__body">
+					<div class="footer__contact contact-footer">
+						<div class="contact-footer__label footer__label">Contact data</div>
+						<div class="contact-footer__body">
+							<a href="https://maps.app.goo.gl/h1xusUTWnPDBeWwU9" class="contact-footer__link footer__link">26a Heroiv Stalingradu ave,
+								Kyiv, Ukraine</a>
+							<a href="tel:+380939239981" class="contact-footer__link footer__link">+380 93 923 99 81</a>
+							<a href="mailto:max@dark.agency" class="contact-footer__link footer__link">max@dark.agency</a>
+							<a href="#" class="contact-footer__link-social">
+								<img src="img/icons/icon-linkedIn.svg" alt="icon linkedIn">
+							</a>
+						</div>
+					</div>
+					<div class="footer__about about-footer">
+						<div class="about-footer__label footer__label">About</div>
+						<nav class="about-footer__body">
+							<ul class="about-footer__list">
+								<li class="about-footer__item"><a href="saas.html" class="about-footer__link footer__link">SaaS Solution</a></li>
+								<li class="about-footer__item"><a href="about.html" class="about-footer__link footer__link">About Us</a></li>
+								<li class="about-footer__item"><a href="dev.html" class="about-footer__link footer__link">Custom Development</a></li>
+								<li class="about-footer__item"><a href="#" class="about-footer__link footer__link">Blog</a></li>
+								<li class="about-footer__item"><a href="services.html" class="about-footer__link footer__link">Services</a></li>
+								<li class="about-footer__item"><a href="contact.html" class="about-footer__link footer__link">Contact Us</a></li>
+								<li class="about-footer__item"><a href="cases.html" class="about-footer__link footer__link">Use Cases</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__legal legal-footer">
+						<div class="legal-footer__label footer__label">Legal</div>
+						<div class="legal-footer__body">
+							<a href="#" class="legal-footer__link footer__link">Privacy Policy</a>
+							<a href="#" class="legal-footer__link footer__link">License Agreement</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__close-block">
+					<div class="popup__dot"></div>
+					<div class="popup__dot"></div>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/icon-close.svg" alt="icon">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__images">
+						<div class="popup__image popup__image_1">
+							<img src="img/popup/image_1.webp" alt="image">
+						</div>
+						<div class="popup__image popup__image_2">
+							<img src="img/popup/image_2.webp" alt="image">
+						</div>
+
+					</div>
+					<div class="popup__box">
+						<h2 class="popup__title">Get in Touch</h2>
+						<div class="popup__text">Simply want to connect or have a general inquiry? Feel free to reach out, and we’ll get back to you as soon as we can.</div>
+						<div class="popup__form">
+							<form action="files/sendmail/sendmail.php" method="POST" class="form__body">
+								<div class="form__item">
+									<label for="formFirstNamePopup" class="form__label">First Name</label>
+									<input type="text" name="form[first-name]" id="formFirstNamePopup" data-error="Error" placeholder="John" class="input">
+								</div>
+								<div class="form__item">
+									<label for="formLastNamePopup" class="form__label">last Name</label>
+									<input type="text" name="form[last-name]" id="formLastNamePopup" data-error="Error" placeholder="" class="input">
+								</div>
+								<div class="form__item">
+									<label for="formEmailPopup" class="form__label">Email</label>
+									<input type="email" name="form[email]" id="formEmailPopup" data-error="Error" placeholder="E-mail" class="input">
+								</div>
+								<div class="form__item">
+									<label for="formCountryPopup" class="form__label">Country</label>
+									<input type="text" name="form[country]" id="formCountryPopup" data-error="Error" placeholder="Germany" class="input">
+								</div>
+								<div class="form__item">
+									<label for="formPhonePopup" class="form__label">Phone</label>
+									<input type="tel" name="form[phone]" id="formPhonePopup" data-error="Error" placeholder="" class="input">
+								</div>
+								<div class="form__item">
+									<label for="formNamePopup" class="form__label">First Name</label>
+									<input type="text" name="form[name]" id="formNamePopup" data-error="Error" placeholder="Optional" class="input">
+								</div>
+								<div class="form__item form__item_message">
+									<label for="formMessagePopup" class="form__label">Message</label>
+									<input type="text" name="form[message]" id="formMessagePopup" data-error="Error" placeholder="Message" class="input input_message-popup">
+								</div>
+								<button type="submit" class="button">Send request</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240519044227"></script>
+	<script src="files/intl-tel-input/intlTelInput.js?_v=20240519044227"></script>
+	<script src="files/intl-tel-input/utils.js?_v=20240519044227"></script>
+</body>
+
+</html>
